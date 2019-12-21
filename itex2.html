@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Лабораторная работа 2</title>
+	<link href="styles.css" type="text/css" rel="stylesheet">
+	<style>
+	    p {
+		 font-family:'Times New Roman';
+		 font-size:25px;
+		 font-style:bold;
+		 color:blue;
+	    }
+		
+		.modded {
+		 font-family: helvetica;
+		 color:gray;
+		 font-size:40;
+		}
+		
+		#background {
+		 background-color: yellow;
+		}
+		
+	    table {
+		 width: 25%;
+		 height: 50px;
+		 border-collapse: collapse;
+		 border: 1px solid #A52A2A;
+	    }
+	    th, td {
+		 border-bottom: 1px solid #A52A2A
+	    }
+	    th {
+  		 background-color: #A52A2A;
+  		 color: white;
+		 
+	    }
+	    tr:nth-child(odd) {
+		 background-color: #FFF5EE;
+		 border-bottom: 2px solid #A52A2A
+	    }
+
+		h2 {
+		 position:absolute;
+		 top: 100px;
+		 right: 1200px;
+		 transform: rotate(45deg);
+		}
+		
+		h3 {
+		 position:relative;
+		 left: 600px;
+		 top: 100px;
+		}
+		
+		img{
+		 float: left;
+		}
+		 
+	</style>
+    </head>
+    <body>
+	<p style="font-family:Verdana;font-size:18px;font-style:italic;color:green;">Текст с inline использованием CSS</p>
+	<p>Текст с использованием CSS стиля в секции заголовка</p>
+	
+	<p class="modded">Измененный текст</p>
+	
+	<p class="modded" id="background">Измененный текст с фоном</p>
+	
+	<h1>Текст с использованием CSS стиля внешнего файла</h1>
+
+	
+	
+	<h2>Абсолютное позиционирование</h2>
+	
+	<h3>Относительное позиционирование</h3>
+	
+	<p><img src="cat_image.jpg" alt="cat" style="width:170px;height:170px;margin-right;15px;">Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Phasellus impediet, nulla et dictum interdum, <br>nisi lorem egastas odio, vitae scelerisque enim ligula venenatis dolor. <br>Maecenas nisl est, ultrices nec congue eget, <br>auctor vitae massa. Fusce luctus vestubulum augue ut aliquet<br>Praesent convallis urna a lacus iterdum ut hendrerit rusus bongue. Nunc sagittis <br> dictum sisi, sed ullamcorper ipsum dibnissim ac. In at libero sed nunc venenatis <br> Donec vitae dui eget tellus gravida venenatis.</p>
+	
+	<table>
+	    <tr align="center"><th></th><th>2017</th><th>2018</th><th>2019</th></tr>
+	    <tr><td>ИТех</td><td align="center">93</td><td align="center">97</td><td align="center">98</td></tr>
+	    <tr><td>КСх</td><td align="center">91</td><td align="center">98</td><td align="center">97</td></tr>
+	    <tr><td>СПО</td><td align="center">96</td><td align="center">94</td><td align="center">97</td></tr>
+	</table>
+    </body>
+</html>
